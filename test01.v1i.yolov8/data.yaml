@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['0', '1', '2']
+
+roboflow:
+  workspace: worktest-n3tve
+  project: test01-mzjbt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/worktest-n3tve/test01-mzjbt/dataset/1

@@ -1,0 +1,15 @@
+names:
+- ball
+- goalkeeper
+- player
+- referee
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: football-players-detection-o7ym6
+  url: https://universe.roboflow.com/amitis-yolo/football-players-detection-o7ym6/dataset/1
+  version: 1
+  workspace: amitis-yolo
+test: test/images
+train: train/images
+val: valid/images
