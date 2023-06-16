@@ -1,10 +1,10 @@
 task: detect
 mode: train
-model: yolov8n.yaml
-data: data.yaml
-epochs: 3
-patience: 50
-batch: 16
+model: yolov8n.pt
+data: traffic_data/data.yaml
+epochs: 300
+patience: 5
+batch: 8
 imgsz: 640
 save: true
 save_period: -1
@@ -17,7 +17,7 @@ exist_ok: false
 pretrained: false
 optimizer: auto
 verbose: true
-seed: 0
+seed: 42
 deterministic: true
 single_cls: false
 rect: false

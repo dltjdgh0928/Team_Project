@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['초록불', '빨간불', '횡단보도']
+
+roboflow:
+  workspace: ai-vi0bg
+  project: code3line
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-vi0bg/code3line/dataset/4
